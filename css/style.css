@@ -1,0 +1,463 @@
+/* Theme Name: Restaurant.
+Theme Design: Amir Hamza Shuvo Khan.
+Theme Created By: Amir Hamza Shuvo Khan. */
+
+/* Common Css Code Start Here */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Common Css Code End Here */
+
+/* Header Css Code Start Here */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 110px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 0px 0px 50px;
+}
+
+/* Header Css Code End Here */
+
+/* Banner Css Code Start Here */
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 240px;
+    padding-bottom: 140px;
+}
+
+.banner-item {
+    position: relative;
+}
+
+.banner-item-image {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
+
+.banner-item h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 90px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.banner-item-link {
+    margin-top: 30px;
+}
+
+.banner-item-link a {
+    padding: 22px 51px 20px 51px;
+    background: rgb(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 30px 10px 0px 10px;
+    transition: all linear .3s;
+}
+
+.banner-item-link a:hover {
+    background: rgb(0, 0, 0, 0.5);
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+/* Banner Css Code End Here */
+
+/* Just Food Css Code Start Here */
+
+#just-food {
+    background: url(../images/just-food-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.just-food-text {
+    padding-top: 30px;
+}
+
+.just-food-text h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    padding-bottom: 10px;
+}
+
+.just-food-underline img {
+    padding-bottom: 30px;
+}
+
+.just-food-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.just-food-sign {
+    margin-left: 45px;
+}
+
+/* Just Food Css Code End Here */
+
+/* Fine Css Code Start Here */
+
+#fine {
+    background: url(../images/fine-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 182px;
+    padding-bottom: 182px;
+}
+
+.fine-text {
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.fine-text h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.fine-text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 30px 75px 68px 75px;
+}
+
+.fine-inner-image {
+    padding-bottom: 77px;
+}
+
+.fine-inner-image img {
+    margin: 0px 5px;
+}
+
+/* Fine Css Code End Here */
+
+/* Service Css Code Start Here */
+
+#service {
+    background: url(../images/service-item-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+
+.service-text h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    padding-bottom: 10px;
+}
+
+.service-text img {
+    padding-bottom: 30px;
+}
+
+.menu-name h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: #c89f2d;
+    padding-bottom: 10px;
+    line-height: 21px;
+    position: relative;
+}
+
+.menu-price p {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: #c89f2d;
+    padding-bottom: 10px;
+    line-height: 21px;
+}
+
+.service-line {
+    border-bottom: 1px solid #e0d2a2;
+}
+
+.menu-des p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4c4c4c;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.br-none {
+    padding-bottom: 0;
+}
+
+/* Service Css Code End Here */
+
+/* Guest Css Code Start Here */
+
+#guest {
+    background: url(../images/guest-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.guest-review {
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.guest-review h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.guest-review h4 {
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #dde0df;
+    line-height: 45px;
+    padding: 30px 24px 40px 24px;
+}
+
+.guest-review span {
+    font-size: 96px;
+    color: #f2f4f4;
+}
+
+.guest-review p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+/* Guest Css Code End Here */
+
+/* Footer-Upper Css Code Start Here */
+
+#footer-upper {
+    background: url(../images/footer-upper-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.just-food-second h3 {
+    font-family: 'Yeseva One', cursive; 
+    font-weight: 400;
+    font-size: 36px;
+    color: #cc9900;
+    padding-bottom: 10px;
+}
+
+.just-food-second h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.just-food-second p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.type form {
+    width: 250px;
+    height: 36px;
+}
+
+.type h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #c9a131;
+    padding-bottom: 5px;
+}
+
+.type input {
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #7c7c7c;
+    border: 1px solid #c8c6c6;
+    transition: all linear .3s;
+}
+
+.type input:hover {
+    border: 1px solid #c89f2d;
+}
+
+.book-now {
+    padding-top: 30px;
+}
+
+.book-now a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 61px 12px 64px;
+    color: #ffffff;
+    background: #c9a131;
+    text-transform: capitalize;
+}
+/* Footer-Upper Css Code End Here */
+
+/* Footer Css Code Start Here */
+
+#footer {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background: #191919;
+}
+
+.footer-heading h3 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.footer-heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.footer-para span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer-para p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px 70px 50px 70px;
+}
+
+.footer-para i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.our-location p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px 73px 50px 73px;
+}
+
+.our-location i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+/* Footer Css Code End Here */
+
+/* Common Css Code Start Here */
+
+/* Common Css Code End Here */
